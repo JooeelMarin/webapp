@@ -26,6 +26,7 @@ let icon = L.icon({    // propietats de la icona
 
 
 
+
 window.onload = () => { 
     let base_de_dades = storage.getItem("base_de_dades");   
     if(base_de_dades == null) {
